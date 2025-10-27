@@ -24,7 +24,7 @@ Công cụ Unity Editor (UPM) giúp phát hiện và khắc phục lỗi Android
 ### Cách 2: Add từ Unity Package Manager
 1. Mở Unity → `Window → Package Manager`  
 2. Chọn menu `+` → **Add package from disk...**  
-3. Chọn file `package.json` trong thư mục `com.manhtool.androidmanifestfixer`
+3. Chọn file `package.json` trong thư mục `com.persinus.androidmanifestfixer`
 
 ---
 
