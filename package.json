@@ -1,8 +1,37 @@
-"name": "com.persinus.androidmanifestfixer",
-"version": "0.1.0",
-"displayName": "Android Manifest Fixer (UPM)",
-"description": "UPM tool: phát hiện plugin gây lỗi (duplicate class, manifest conflict) và tự chèn permissions + code runtime permission vào Unity project. Không dùng jadx.",
-"unity": "2020.3",
-"author": { "name": "Nguyễn Văn Mạnh" },
-"keywords": ["android","manifest","permission","gradle","upm","plugin-detector"],
-"type": "tool"
+{
+  "name": "com.persinus.androidmanifestfixer",
+  "displayName": "Android Manifest Fixer",
+  "version": "0.1.0",
+  "unity": "2022.3",
+  "description": "Công cụ Unity Editor giúp dò plugin/AAR/JAR gây lỗi (Duplicate class, missing permission,...) và tự động chèn quyền hoặc đoạn manifest cần thiết. Giao diện tiếng Việt, không cần dùng jadx.",
+  "author": {
+    "name": "Persinus",
+    "email": "contact@persinus.dev",
+    "url": "https://github.com/Persinus"
+  },
+  "samples": [
+    {
+      "displayName": "Example Permission Requester",
+      "description": "Ví dụ xin quyền runtime trong Unity bằng PermissionRequester.cs",
+      "path": "Samples~/ExamplePermissionRequester"
+    },
+    {
+      "displayName": "Example Manifest",
+      "description": "Ví dụ AndroidManifest.xml có thể chỉnh tự động bằng tool.",
+      "path": "Samples~/ExampleManifest"
+    }
+  ],
+  "hideInEditor": false,
+  "keywords": [
+    "android",
+    "manifest",
+    "permission",
+    "fixer",
+    "unity",
+    "persinus"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Persinus/android-manifest-fixer.git"
+  }
+}
